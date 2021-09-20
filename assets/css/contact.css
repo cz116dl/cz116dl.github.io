@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Open-Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-us {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px 50px;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 2em;
+    line-height: 1.25em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    Letter-spacing: 2px;
+    color: #000;
+    padding-bottom: 15px;
+}
+
+.input-fields {
+    padding: 0 30px;
+}
+
+.input-fields .items {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.input-fields .items .label {
+    display: block;
+    font-size: 1em;
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+
+.input-fields .items .input,
+.input-fields .items .text-area{
+    background: transparent;
+    border: 0;
+    border: 1px solid #fff;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1em;
+    color: #b3ffcc;
+    border-radius: 3px;
+}
+
+.btn {
+    margin: 0 30px;
+    background: #000;
+    color: #fff;
+    font-size: 1.25em;
+    padding: 1px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.items #msg {
+    height: 100px;
+}
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
