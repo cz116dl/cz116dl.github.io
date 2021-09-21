@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Get Access"
-AuthUserFile /users/czeidler2021/www/user/.htpasswd
-Require valid-user
