@@ -2,5 +2,6 @@ body {
     background-image: url('/index/img/main-background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: flex;
+    background-position: flex;
   }
