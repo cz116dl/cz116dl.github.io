@@ -29,7 +29,6 @@ body{
 	top: 0;
 	background: url("img/bg.jpg") no-repeat center;
 	background-size: cover;
-	filter: blur(50px);
 	z-index: -1;
 }
 .contact-box{
