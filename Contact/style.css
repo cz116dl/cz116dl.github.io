@@ -28,7 +28,7 @@ body{
 	left: 0;
 	top: 0;
 	background: url("img/bg.jpg") no-repeat center;
-	filter: blur(25px);
+	filter: blur(8px);
 	background-size: cover;
 	z-index: -1;
 }
@@ -44,7 +44,7 @@ body{
 }
 
 .left{
-	background: url("img/bg_sm.jpg") no-repeat center;
+	background: url("img/bg.jpg") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
