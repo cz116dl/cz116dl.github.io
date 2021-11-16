@@ -21,16 +21,16 @@ body{
 }
 
 .container:after{
-	content: '';
-	position: absolute;
-	width: 150%;
-	height: 150%;
-	left: 0;
-	top: 0;
-	background: url("../Contact/img/bg.jpg") no-repeat center;
-	filter: blur(8px);
-	background-size: cover;
-	z-index: -1;
+	content: '' !important;
+	position: absolute !important;
+	width: 100% !important;
+	height: 100% !important;
+	left: 0 !important;
+	top: 0 !important;
+	background: url("../Contact/img/bg.jpg") no-repeat center !important;
+	filter: blur(8px) !important;
+	background-size: cover !important;
+	z-index: -1 !important;
 }
 .contact-box{
 	max-width: 850px;
